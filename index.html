@@ -5,38 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="./script2.js"></script>
+   
   </head>
   <body>
-    <form action="">
-    <div class="box-container">
-      <h4 class="head">User Registration Form</h4>
-      <textarea name="" id="" placeholder="ID"></textarea>
-      <textarea name="" id="" placeholder="First Name"></textarea>
-      <textarea name="" id="" placeholder="Last Name"></textarea>
-      <textarea name="" id="" placeholder="Email"></textarea>
-   <button>submit</button>
-    </div>
-</form>
 
-    <table>
-      <tr>
-        <th class="font">Id</th>
-        <th class="font">First Name</th>
-        <th class="font">Last Name</th>
-        <th class="font">Email</th>
-        <th class="font">Action</th>
-      </tr>
-      <tr>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td></td>
-        <td> <button>Delete</button> 
-        </td>
-        <!-- <th></th>
-        <th></th>
-        <th></th> -->
-      </tr>
+    <div>
+      <form id="myForm">
+        <div class="box-container">
+          <h4 class="head">User Registration Form</h4>
+          <textarea name="id" id="" placeholder="ID"></textarea>
+          <textarea name="firstName" id="" placeholder="First Name"></textarea>
+          <textarea name="lastName" id="" placeholder="Last Name"></textarea>
+          <textarea name="email" id="" placeholder="Email"></textarea>
+          <button type="submit">Submit</button>
+        </div>
+      </form>
+
+    </div>
+   
+
+
+    <table id="userTable">
+      <thead>
+        <tr>
+          <th class="font">Id</th>
+          <th class="font">First Name</th>
+          <th class="font">Last Name</th>
+          <th class="font">Email</th>
+          <th class="font">Action</th>
+        </tr>
+      </thead>
+      <tbody id="tableBody">
+        <!-- Data will be populated here -->
+      </tbody>
     </table>
+
+
   </body>
 </html>

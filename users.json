@@ -1,34 +1,16 @@
 {
   "users": [
     {
-      "id": 1,
-      "first_name": "Robert",
-      "last_name": "Schwartz",
-      "email": "rob23@gmail.com"
+      "id": 354,
+      "firstName": "Laborum Tempor volu",
+      "lastName": "Deserunt deserunt si",
+      "email": "Quos sed asperiores "
     },
     {
-      "id": 2,
-      "first_name": "Lucy",
-      "last_name": "Ballmer",
-      "email": "lucyb56@gmail.com"
-    },
-    {
-      "id": 3,
-      "first_name": "Anna",
-      "last_name": "Smith",
-      "email": "annasmith23@gmail.com"
-    },
-    {
-      "id": 4,
-      "first_name": "Robert",
-      "last_name": "Brown",
-      "email": "bobbrown432@yahoo.com"
-    },
-    {
-      "id": 5,
-      "first_name": "Roger",
-      "last_name": "Bacon",
-      "email": "rogerbacon12@yahoo.com"
+      "id": 499,
+      "firstName": "Nulla laboriosam si",
+      "lastName": "Maxime rerum repudia",
+      "email": "Ex molestias non nih"
     }
   ]
 }
